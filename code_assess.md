@@ -19,3 +19,30 @@ Constraints:
 0 <= starti <= endi <= 104
 starti is sorted
 ```
+
+### Move Zeros
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+Tests:
+```
+a)
+Input: nums = [0,1,0,3,12]
+Output: [1,3,12,0,0]
+b)
+Input: nums = [1,2,0,3,0,1,2]
+Output: [1.2,3,1,2]
+c)
+Input: nums = [0,0,0,1]
+Output: [1,0,0,0]
+d)
+Input: nums = [1,2,1,1]
+Output: [1,2,1,1]
+e)
+Input: nums = [0]
+Output: [0]
+```
+
+Constraits:
+```
+1 <= nums.length <= 104
+```
